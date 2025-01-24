@@ -4,13 +4,13 @@ This package will enable you to render a custom link component within a componen
 ## Install
 
 ```sh
-yarn add @weprovide/react-link-renderer
+yarn add @iodigital/react-link-renderer
 ```
 
 ## Example usage using a custom link renderer (for example using next/link)
 
 ```jsx
-import {LinkRenderer, LinkRendererProvider, LinkRendererProps} from '@weprovide/react-link-renderer';
+import {LinkRenderer, LinkRendererProvider, LinkRendererProps} from '@iodigital/react-link-renderer';
 import Link from "next/link";
 
 const nextLinkRenderer = ({ href, extraOptions, children }: LinkRendererProps) => {

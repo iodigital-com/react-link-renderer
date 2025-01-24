@@ -22,7 +22,7 @@ const nextLinkRenderer = ({ href, extraOptions, children }: LinkRendererProps) =
 }
 ```
 
-Surround your main app with a LinkRendererProvider
+Surround your main app with a LinkRendererProvider 
 ```jsx
 <LinkRendererProvider linkRenderer={nextLinkRenderer}>
     <App />

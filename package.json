@@ -1,10 +1,13 @@
 {
   "name": "@iodigital/react-link-renderer",
   "version": "1.0.5",
-  "author": "We Provide",
+  "author": "iO Digital",
   "contributors": [
     {
       "name": "Alexander Schoonderwaldt"
+    },
+    {
+      "name": "Levi Crietee"
     }
   ],
   "repository": "bitbucket:weprovide/weprovide-react-link-renderer",

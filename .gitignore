@@ -3,3 +3,5 @@ node_modules
 .yarn/*
 .yarnrc.yml
 dist
+.pnp.loader.mjs
+.pnp.cjs

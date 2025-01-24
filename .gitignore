@@ -1,2 +1,7 @@
 node_modules
 .idea
+.yarn/*
+.yarnrc.yml
+dist
+.pnp.loader.mjs
+.pnp.cjs

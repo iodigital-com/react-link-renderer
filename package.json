@@ -10,7 +10,9 @@
       "name": "Levi Crietee"
     }
   ],
-  "repository": "bitbucket:weprovide/weprovide-react-link-renderer",
+  "repository": {
+    "url": "https://github.com/iodigital-com/react-link-renderer"
+  },
   "description": "This package will enable you to render a custom link component within a component library for example.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

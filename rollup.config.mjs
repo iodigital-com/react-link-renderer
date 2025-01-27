@@ -13,7 +13,8 @@ export default {
             format: "cjs",
             exports: "named",
             sourcemap: false,
-            compact: true
+            compact: true,
+            esModule: true,
         },
         {
             file: pkg.module,
@@ -31,6 +32,7 @@ export default {
             clean: true
         }),
         commonjs({
+            transformMixedEsModules: true,
             include: ["node_modules/**"],
             exclude: "**/__tests__/**",
             namedExports: {

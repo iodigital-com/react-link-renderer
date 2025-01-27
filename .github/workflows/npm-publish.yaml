@@ -1,6 +1,6 @@
 # This workflow will publish the package to npmjs.org when pushed to main
 
-name: Publish to npmjs
+name: Publish package to npmjs
 on:
   release:
     types: [published]

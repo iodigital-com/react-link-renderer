@@ -11,7 +11,8 @@
     }
   ],
   "repository": {
-    "url": "https://github.com/iodigital-com/react-link-renderer"
+    "type": "git",
+    "url": "https://github.com/iodigital-com/react-link-renderer.git"
   },
   "description": "This package will enable you to render a custom link component within a component library for example.",
   "main": "dist/index.js",

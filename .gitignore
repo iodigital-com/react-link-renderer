@@ -5,3 +5,4 @@ node_modules
 dist
 .pnp.loader.mjs
 .pnp.cjs
+.DS_Store
